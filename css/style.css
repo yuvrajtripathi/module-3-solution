@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: wheat;
+}
+
+header{
+  margin: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+h1{
+  margin: 20px;
+  font-size: 1.6em;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+section{
+  float: left;
+  margin: 20px 0 20px 0;
+  background-color: grey;
+  padding: 10px ;
+}
+.navbar{
+  font-size: 1.6em;
+  background-color: grey;
+}
+
+.nav-item{
+  visibility: hidden;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px){
+  .nav-item{
+    visibility: visible;
+  }
+}
